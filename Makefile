@@ -2,7 +2,8 @@ OUTPUT_FILE = keditor
 
 SOURCE_FILES = \
 	main.cpp \
-	TextDocument.cpp
+	TextDocument.cpp \
+	TextView.cpp
 
 COMPILE_FLAGS = `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`
 
